@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class task158 {//sort(),equals()
+public class task158 {//sort(),equals(),
     public static void main(String[] args) {
         int[] a = new int[5];
         int[] b = new int[5];
@@ -17,7 +17,7 @@ public class task158 {//sort(),equals()
         for (int i = 0; i < b.length; i++) {
             b[i] = r.nextInt();
         }
-        Arrays.sort(b);
+        Arrays.sort(b);//this area used to sort the array b  if i not used then the array will not be sorted and the output will be wrong
         for (int i = 0; i < b.length; i++) {
             System.out.print(b[i] + " ");
         }
@@ -26,13 +26,16 @@ public class task158 {//sort(),equals()
             System.out.println("Arrays are equal");
         } else {
             System.out.println("Arrays are not equal");
-    
-    
-    
-    
-    
       }
+  int a1[]=Arrays.copyOf(a,5);//copyof ()
+  System.out.println("\nCopied array is :");
+  for(int i=0;i<a1.length;i++){
+    System.out.print(a1[i]+" "); 
+ 
   }
-}
+  
+  }
+    }
+
 
    
