@@ -13,9 +13,10 @@ public class task163 {//delete an element from an array
         }
         System.out.print("Enter the location where you want to delete element: ");
         loc = r.nextInt();
-        for(i=loc-1;i<size-1;i++)
+        for(i=loc;i<size-1;i++)
         {
             a[i] = a[i+1];
+            
         }
         System.out.println("Resultant array: ");
         for(i=0;i<size-1;i++)
