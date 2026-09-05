@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class test151 {//print array in reverse order
+public class task151 {//print array in reverse order
   public static void main(String[] args) {
     int a[]= new int  [5];
     Scanner r=new Scanner(System.in);
